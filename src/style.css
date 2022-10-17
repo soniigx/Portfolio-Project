@@ -273,7 +273,7 @@ Hamburger
   #mobile-menu {
     background-color: #d669d7;
     position: absolute;
-    top: 2%;
+    top: 4%;
     right: 5%;
     transform: translate(5%, 20%);
   }
