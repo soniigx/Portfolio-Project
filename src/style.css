@@ -327,7 +327,7 @@ header ul li a.active {
 }
 
 .button-about:hover {
-  background-color: #ff6f91;
+  background-color: #e85678;
   color: #fff;
   transform: scale(1.2);
   transition: transform 0.5s ease-out;
@@ -351,7 +351,7 @@ header ul li a.active {
 }
 
 .button-contact:hover {
-  background-color: #ff6f91;
+  background-color: #e85678;
   color: #fff;
   transform: scale(1.2);
   transition: transform 0.5s ease-out;
