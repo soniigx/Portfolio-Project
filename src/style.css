@@ -363,6 +363,9 @@ Tech Stack
 
 */
 
+.section__title {
+  padding: 25px;
+}
 .language {
   width: 25%;
   display: flex;
