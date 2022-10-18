@@ -213,7 +213,7 @@ header ul li a.active {
   width: 350px;
   height: 350px;
   border-radius: 8%;
-  filter: drop-shadow(16px 4px 4px #fdbafc);
+  filter: drop-shadow(16px 4px 8px #ca5384);
 }
 
 .about-me__picture {
