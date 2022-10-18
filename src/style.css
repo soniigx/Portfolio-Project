@@ -71,6 +71,8 @@ li {
   background: #fff;
 }
 
+/* Tablets */
+
 @media screen and (max-width: 768px) {
   .navbar__menu {
     display: grid;
@@ -270,7 +272,7 @@ header ul li a.active {
   }
 }
 
-/* Small phones */
+/* Tablets */
 @media screen and (max-width: 780px) {
   .about-me__picture {
     margin-top: -35px;
@@ -410,4 +412,115 @@ Tech Stack
 .language:hover .language__name {
   transform: scale(1);
   opacity: 1;
+}
+
+/* Small phones */
+
+@media screen and (max-width: 576px) {
+  .about-me__picture {
+    margin-top: 90px;
+    margin-left: -5px;
+    width: 250px;
+  }
+  .about-me__info--title {
+    margin-left: 250px;
+    margin-top: -80px;
+  }
+  .about-me__info--para {
+    margin-top: 150px;
+    margin-left: -5px;
+    text-align: center;
+  }
+
+  header .logo {
+    margin-top: -256px;
+  }
+  .navbar__toggle {
+    display: none;
+  }
+}
+
+/* Tables */
+
+@media screen and (min-width: 668px) {
+  .about-me__picture {
+    margin-top: 80px;
+    margin-left: -10px;
+    width: 256px;
+  }
+
+  .about-me__info--title {
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+  .about-me__info--para {
+    margin-top: 180px;
+    margin-left: -10px;
+  }
+  header .logo {
+    margin-top: -250px;
+  }
+  .navbar__toggle {
+    display: none;
+  }
+}
+
+/* Small Phones */
+
+@media screen and (min-width: 414px) {
+  .about-me__picture {
+    margin-top: 90px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  .about-me__info--title {
+    margin-top: -190px;
+    margin-left: 210px;
+    text-align: center;
+  }
+  .about-me__info--para {
+    margin-left: -35px;
+    margin-top: 180px;
+    font-size: 20px;
+  }
+  header .logo {
+    margin-top: -250px;
+  }
+  .navbar__toggle {
+    display: none;
+  }
+}
+
+/* Kindles */
+
+@media screen and (min-width: 800px) {
+  .about-me__picture {
+    margin-top: 90px;
+    margin-left: 10px;
+    width: 300px;
+  }
+
+  .about-me__info--title {
+    margin-top: 10px;
+    margin-left: 310px;
+    text-align: center;
+  }
+  .about-me__info--para {
+    margin-left: -15px;
+    margin-top: 180px;
+    font-size: 20px;
+  }
+  header .logo {
+    margin-top: -5px;
+  }
+  .navbar__toggle {
+    display: none;
+  }
+  .buttons-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 285px;
+  }
 }
