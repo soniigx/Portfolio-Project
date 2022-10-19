@@ -15,7 +15,7 @@
 body {
   min-height: 100vh;
   overflow-x: hidden;
-  background: linear-gradient(#ff6f91, #bf43e6);
+  background: linear-gradient(#ff6f91, #9e20c5);
 }
 
 h1,
@@ -75,12 +75,12 @@ li {
 
 @media screen and (max-width: 768px) {
   .navbar__menu {
-    display: grid;
+    display: block;
     grid-template-columns: auto;
     width: 58%;
     opacity: 0;
     height: 50vh;
-    margin-top: 95px;
+    margin-top: 135px;
     transition: all 0.5s ease;
     z-index: -1;
   }
@@ -92,6 +92,11 @@ li {
     z-index: 99;
     height: 50vh;
     font-size: 1.6rem;
+  }
+
+  li {
+    font-size: 18px;
+    padding: 10px;
   }
 
   #mobile-menu {
@@ -242,6 +247,7 @@ header ul li a.active {
   font-size: 20px;
   margin-left: 185px;
   text-align: center;
+  z-index: 1;
 }
 
 .nav__link--anchor {
@@ -301,6 +307,24 @@ header ul li a.active {
   .logo__link {
     padding: 10px;
   }
+
+  .about-me__picture {
+    margin-top: -35px;
+    margin-left: 80px;
+    margin-top: -15px;
+    width: 260px;
+  }
+
+  header .logo {
+    font-size: 1.6em;
+    margin-top: -255px;
+  }
+
+  .about-me__info--para {
+    font-size: 20px;
+    margin-top: 320px;
+    margin-left: -335px;
+  }
 }
 
 /* Buttons */
@@ -309,6 +333,7 @@ header ul li a.active {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .button-about {
@@ -360,9 +385,7 @@ header ul li a.active {
 }
 
 /* 
-
 Tech Stack
-
 */
 
 .section__title {
@@ -421,3 +444,91 @@ Tech Stack
     margin-top: -55px;
   }
 }
+
+/* Wave SVG */
+
+.background__wave {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: -400px;
+  height: 150%;
+  overflow: hidden;
+}
+
+/* Ipads */
+
+@media screen and (min-width: 500px) {
+  .about-me__picture {
+    width: 255px;
+    margin-top: 35px;
+    margin-left: 35px;
+  }
+
+  .about-me__info--title {
+    margin-top: 5px;
+    margin-left: 285px;
+    font-size: 55px;
+  }
+
+  .about-me__info--para {
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: -280px;
+  
+  }
+}
+
+/* Small screens, Laptops */
+
+@media screen and (min-width: 769px) {
+  .about-me__picture {
+    width: 255px;
+    margin-top: 85px;
+    margin-left: 15px;
+  }
+
+  .about-me__info--title {
+    margin-top: -75px;
+    margin-left: 235px;
+  }
+
+  .about-me__info--para {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: -15px;
+  }
+
+  header .logo {
+    font-size: 25px;
+    margin-top: 75px;
+  }
+}
+
+/* Small screens, Laptops */
+
+@media screen and (min-width: 634px) {
+  .about-me__picture {
+    width: 255px;
+    margin-top: 85px;
+    margin-left: 15px;
+  }
+
+  .about-me__info--title {
+    font-size: 35px;
+    margin-top: -75px;
+    margin-left: 235px;
+  }
+
+  .about-me__info--para {
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: -15px;
+  }
+
+  header .logo {
+    font-size: 25px;
+    margin-top: -235px;
+  }
+}
+
