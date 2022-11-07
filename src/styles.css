@@ -1,8 +1,8 @@
-* Google Fonts Import */
+/* Google Fonts Import */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&display=swap");
 
 :root {
-  --color-primary: #2584ff;
+  --color-primary: #fff;
   --color-secondary: #ffb3fc;
   --color-accent: rgb(214, 22, 111);
   --color-background: #f9bfe4;
@@ -881,4 +881,3 @@ footer {
     transform: translateY(0);
   }
 }
-
