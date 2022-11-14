@@ -51,15 +51,18 @@ span {
   color: #242424;
   text-align: center;
   line-height: 1.25;
+  animation: fade-up 650ms 400ms backwards;
 }
 
 h1 {
   font-size: 42px;
+  animation: fade-up 650ms 400ms backwards;
 }
 
 p {
   line-height: 1.25;
   font-size: 16px;
+  animation: fade-up 650ms 400ms backwards;
 }
 
 li {
@@ -193,6 +196,7 @@ i:hover,
   color: deeppink;
   -webkit-text-stroke: 1px #fff;
   font-style: italic;
+  animation: fade-up 650ms 400ms backwards;
 }
 
 /* Navbar */
@@ -259,6 +263,7 @@ ul li a {
   outline-color: #d4399b;
   outline-width: 12px;
   margin: 22px;
+  animation: fade-up 650ms 400ms backwards;
 }
 
 .top-post__picture:hover {
@@ -496,6 +501,7 @@ h4 {
   list-style-image: url(/images/paw.svg);
   margin-left: 1em;
   padding: 4px;
+  animation: fade-up 650ms 400ms backwards;
 }
 
 .list--tick {
